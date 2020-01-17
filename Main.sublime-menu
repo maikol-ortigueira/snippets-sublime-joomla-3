@@ -1,0 +1,27 @@
+[
+	{
+		"caption":"Preferences",
+		"id":"preferences",
+		"children":
+		[
+			{
+				"caption":"Package Settings",
+				"id":"package-settings",
+				"children":
+				[
+					{
+						"caption":"Mis Snippets de Joomla! 3x",
+						"children":
+						[
+							{
+								"command":"open_file",
+								"args":{"file":"${packages}/Mis Snippets de Joomla! 3x/Default.tmPreferences"},
+								"caption":"Prefencias - Predeterminadas"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

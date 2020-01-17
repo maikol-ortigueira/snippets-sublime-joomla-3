@@ -1,0 +1,14 @@
+{
+	"caption":"Mis Snippets de Joomla! 3x",
+	"children":
+	[
+		{
+			"caption":"Prefencias - Predeterminadas",
+			"command":"open_file",
+			"args":
+				{
+					"file":"${packages}/Mis Snippets de Joomla! 3x/Default.tmPreferences"
+				}
+		}
+	]
+}

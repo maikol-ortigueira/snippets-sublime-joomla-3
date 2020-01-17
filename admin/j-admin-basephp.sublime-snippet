@@ -1,0 +1,19 @@
+<!-- $TM_FULLNAME <$TM_EMAIL> -->
+<!-- $TM_VERSION -->
+<!-- ${X:${TM_COMPONENT/(.+)/\L\1/g}} -->
+<!-- ${X:${TM_COMPONENT/(.+)/\u\1/g}} -->
+<!-- ${X:${TM_COMPONENT/(.+)/\U\1/g}} -->
+<!-- ${X:${TM_SINGLE/(.+)/\L\1/g}} -->
+<!-- ${X:${TM_PLURAL/(.+)/\L\1/g}} -->
+<!-- ${X:${TM_FILENAME/(.*?)(\..+)/\L$1/}} -->
+<!-- ${X/(.+)/\L\1/g} -->
+<!-- ${X/(.+)/\u\1/g} -->
+<!-- ${X/(.+)/\U\1/g} -->
+<!-- ${X:nombre} -->
+<snippet>
+	<content><![CDATA[
+
+		]]></content>
+	<tabTrigger>jadmincontrolleredit-mini</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
