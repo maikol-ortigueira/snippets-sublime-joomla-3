@@ -15,7 +15,7 @@
 						[
 							{
 								"command":"open_file",
-								"args":{"file":"${packages}/Mis Snippets de Joomla! 3x/Default.tmPreferences"},
+								"args":{"file":"${packages}/snippets-sublime-joomla-3/Default.tmPreferences"},
 								"caption":"Prefencias - Predeterminadas"
 							}
 						]
