@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[	<field
+		name="${1:tags}"
+		type="tag"
+		mode="ajax"
+		class="inputbox span12 small"
+		multiple="true"${2:
+		custom="deny"}
+		label="JTAG"
+		description="JTAG_DESC"
+	/>
+$100
+]]></content>
+	<tabTrigger>j-field-tag-xml</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[	<field
+		name="$1"
+		type="hidden"
+		default=""
+	/>
+$100
+]]></content>
+	<tabTrigger>j-field-hidden-xml</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

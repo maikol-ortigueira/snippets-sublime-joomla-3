@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[	<field
+		name="$1"
+		type="list"
+		default="$2"
+		label="COM_${TM_COMPONENT/(.+)/\U\1/g}_${TM_FILENAME/(.*?)(\..+)/\U$1/}_FIELD_${1/(-|\s|_)*([[:alnum:]]+)/\U$2_/g}LBL"
+		description="COM_${TM_COMPONENT/(.+)/\U\1/g}_${TM_FILENAME/(.*?)(\..+)/\U$1/}_FIELD_${1/(-|\s|_)*([[:alnum:]]+)/\U$2_/g}DESC"
+		>
+			<option value="$3">COM_${TM_COMPONENT/(.+)/\U\1/g}_${TM_FILENAME/(.*?)(\..+)/\U$1/}_FIELD_${1/(-|\s|_)*([[:alnum:]]+)/\U\2_/g}OPTION_${3/(.+)/\U\1/g}</option>
+			<option value="$4">COM_${TM_COMPONENT/(.+)/\U\1/g}_${TM_FILENAME/(.*?)(\..+)/\U$1/}_FIELD_${1/(-|\s|_)*([[:alnum:]]+)/\U$2_/g}OPTION_${4/(.+)/\U\1/g}</option>
+			<option value="$5">COM_${TM_COMPONENT/(.+)/\U\1/g}_${TM_FILENAME/(.*?)(\..+)/\U$1/}_FIELD_${1/(-|\s|_)*([[:alnum:]]+)/\U$2_/g}OPTION_${5/(.+)/\U\1/g}</option>
+			<option value="$6">COM_${TM_COMPONENT/(.+)/\U\1/g}_${TM_FILENAME/(.*?)(\..+)/\U$1/}_FIELD_${1/(-|\s|_)*([[:alnum:]]+)/\U$2_/g}OPTION_${6/(.+)/\U\1/g}</option>
+			<option value="$7">COM_${TM_COMPONENT/(.+)/\U\1/g}_${TM_FILENAME/(.*?)(\..+)/\U$1/}_FIELD_${1/(-|\s|_)*([[:alnum:]]+)/\U$2_/g}OPTION_${7/(.+)/\U\1/g}</option>
+	</field>
+
+$100
+COM_${TM_COMPONENT/(.+)/\U\1/g}_${TM_FILENAME/(.*?)(\..+)/\U$1/}_FIELD_${1/(-|\s|_)*([[:alnum:]]+)/\U$2_/g}LBL="$10"
+COM_${TM_COMPONENT/(.+)/\U\1/g}_${TM_FILENAME/(.*?)(\..+)/\U$1/}_FIELD_${1/(-|\s|_)*([[:alnum:]]+)/\U$2_/g}DESC="$20"
+COM_${TM_COMPONENT/(.+)/\U\1/g}_${TM_FILENAME/(.*?)(\..+)/\U$1/}_FIELD_${1/(-|\s|_)*([[:alnum:]]+)/\U$2_/g}OPTION_${3/(.+)/\U\1/g}="$31"
+COM_${TM_COMPONENT/(.+)/\U\1/g}_${TM_FILENAME/(.*?)(\..+)/\U$1/}_FIELD_${1/(-|\s|_)*([[:alnum:]]+)/\U$2_/g}OPTION_${4/(.+)/\U\1/g}="$32"
+COM_${TM_COMPONENT/(.+)/\U\1/g}_${TM_FILENAME/(.*?)(\..+)/\U$1/}_FIELD_${1/(-|\s|_)*([[:alnum:]]+)/\U$2_/g}OPTION_${5/(.+)/\U\1/g}="$33"
+COM_${TM_COMPONENT/(.+)/\U\1/g}_${TM_FILENAME/(.*?)(\..+)/\U$1/}_FIELD_${1/(-|\s|_)*([[:alnum:]]+)/\U$2_/g}OPTION_${6/(.+)/\U\1/g}="$34"
+COM_${TM_COMPONENT/(.+)/\U\1/g}_${TM_FILENAME/(.*?)(\..+)/\U$1/}_FIELD_${1/(-|\s|_)*([[:alnum:]]+)/\U$2_/g}OPTION_${7/(.+)/\U\1/g}="$35"
+]]></content>
+	<tabTrigger>j-field-list-xml</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

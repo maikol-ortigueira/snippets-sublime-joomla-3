@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[	<field
+		name="$1"
+		type="email"
+		validate="email"
+		label="JGLOBAL_EMAIL"
+		description="COM_ADMIN_USER_FIELD_EMAIL_DESC"
+	/>
+$100
+]]></content>
+	<tabTrigger>j-field-email-xml</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>
