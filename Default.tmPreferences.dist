@@ -20,13 +20,13 @@
 				<key>name</key>
 				<string>TM_PLURAL</string>
 				<key>value</key>
-				<string><![CDATA[singers]]></string>
+				<string><![CDATA[plural]]></string>
 			</dict>
 			<dict>
 				<key>name</key>
 				<string>TM_SINGULAR</string>
 				<key>value</key>
-				<string><![CDATA[singer]]></string>
+				<string><![CDATA[singular]]></string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -50,19 +50,19 @@
 				<key>name</key>
 				<string>TM_COMPONENT</string>
 				<key>value</key>
-				<string><![CDATA[Tempus]]></string>
+				<string><![CDATA[component]]></string>
 			</dict>
 			<dict>
 				<key>name</key>
 				<string>TM_MONTH</string>
 				<key>value</key>
-				<string><![CDATA[Sept]]></string>
+				<string><![CDATA[April]]></string>
 			</dict>
 			<dict>
 				<key>name</key>
 				<string>TM_YEAR</string>
 				<key>value</key>
-				<string><![CDATA[2019]]></string>
+				<string><![CDATA[2020]]></string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -86,7 +86,7 @@
 				<key>name</key>
 				<string>TM_WEBSITE</string>
 				<key>value</key>
-				<string><![CDATA[https://www.tomadeterra.com]]></string>
+				<string><![CDATA[https://www.maikol.eu]]></string>
 			</dict>
 			<dict>
 				<key>name</key>

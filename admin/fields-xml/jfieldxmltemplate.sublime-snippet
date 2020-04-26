@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	$1
+</form>
+]]></content>
+	<tabTrigger>j-field-template-xml</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>
