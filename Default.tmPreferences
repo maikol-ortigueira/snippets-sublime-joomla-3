@@ -18,6 +18,12 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>TM_EXTENSION_PREFIX</string>
+				<key>value</key>
+				<string><![CDATA[com_]]></string>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>TM_PLURAL</string>
 				<key>value</key>
 				<string><![CDATA[views]]></string>
@@ -44,7 +50,7 @@
 				<key>name</key>
 				<string>TM_COMPONENT</string>
 				<key>value</key>
-				<string><![CDATA[Component]]></string>
+				<string><![CDATA[Tempus]]></string>
 			</dict>
 			<dict>
 				<key>name</key>
