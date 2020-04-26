@@ -18,6 +18,12 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>TM_EXTENSION_PREFIX</string>
+				<key>value</key>
+				<string><![CDATA[com_]]></string>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>TM_PLURAL</string>
 				<key>value</key>
 				<string><![CDATA[singers]]></string>
